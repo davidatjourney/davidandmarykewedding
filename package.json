@@ -1,0 +1,52 @@
+{
+  "name": "davidandmarykewedding",
+  "version": "0.0.0",
+  "description": "David & Maryke Wedding Website",
+  "private": true,
+  "bin": "./bin/app.bundle.js",
+  "scripts": {
+    "install": "webpack",
+    "start": "node ./bin/app.bundle.js"
+  },
+  "repository": "https://github.com/davidatjourney/davidandmarykewedding.git",
+  "author": "David Holtzhausen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaloianm/wedding/issues"
+  },
+  "homepage": "https://github.com/kaloianm/wedding#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "es6-object-assign": "^1.1.0",
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.0.1",
+    "node-fetch": "^1.7.3",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-scroll": "^1.7.6",
+    "react-stickynode": "^1.4.1",
+    "universal-analytics": "^0.4.16",
+    "uuid": "^3.2.1",
+    "validator": "^9.2.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "json-loader": "^0.5.7",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "main": "index.js"
+}
