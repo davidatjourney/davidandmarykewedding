@@ -20,16 +20,16 @@ const websiteContent = (
     <TitleBar id="titlebar">
     </TitleBar>
 
-    <div style={{ height: '200px' }}></div>
+    <div style={{ height: '0px' }}></div>
 
     <Sticky enabled={true}>
       <Menu id="menu"
         items={[{ label: 'THE BRIDE & GROOM', href: 'brideandgroom' },
-                { label: 'THE WEDDING', href: 'wedding' },
-                { label: 'RSVP', href: 'rsvp' },
-                { label: 'LOGISTICS', href: 'logistics' },
-                { label: 'THINGS TO DO', href: 'thingstodo' },
-                { label: 'GIFTS', href: 'gifts' }]}>
+        { label: 'THE WEDDING', href: 'wedding' },
+        { label: 'RSVP', href: 'rsvp' },
+        { label: 'LOGISTICS', href: 'logistics' },
+        { label: 'THINGS TO DO', href: 'thingstodo' },
+        { label: 'GIFTS', href: 'gifts' }]}>
       </Menu>
     </Sticky>
 
@@ -81,7 +81,7 @@ const websiteContent = (
           <p>
             <a href="img/svetimarak.jpg"><img className="location-image" src="img/svetimarak.jpg" alt="Sveti Marak (St Mark's)" /></a>
           </p>
-          <p style={{textAlign: "center"}}>
+          <p style={{ textAlign: "center" }}>
             <a href="https://goo.gl/maps/7oeGdedkbM72">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
           </p>
           <p>Located to the left of the Loggia and Clock Tower (the Town Hall) and behind the market and row of shops at the back of the
@@ -95,7 +95,7 @@ const websiteContent = (
           <p>
             <a href="img/bonjlesbainsbeachclub.jpg"><img className="location-image" src="img/bonjlesbainsbeachclub.jpg" alt="Bonj Les Bains Beach Club" /></a>
           </p>
-          <p style={{textAlign: "center"}}>
+          <p style={{ textAlign: "center" }}>
             <a href="https://goo.gl/maps/MGBa94iBaA42">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
           </p>
           <p>Located a 10 minute walk from Sveti Marak and there will be someone to lead the way. Ladies, please bear in mind that the walk
@@ -125,7 +125,7 @@ const websiteContent = (
       <p>Welcome cocktails will be held on the terrace of <a href="https://goo.gl/Vd3ZJd">Restaurant Park Hvar</a> from 18:30 to 23:30.
       </p>
       <p>
-         Cocktail night attire is dressy-casual.
+        Cocktail night attire is dressy-casual.
       </p>
 
       <hr />
@@ -136,7 +136,7 @@ const websiteContent = (
          just a few meters on the path that takes you to the <a href="https://goo.gl/r9TFHt">wedding venue</a>.
       </p>
       <p>
-         Brunch attire is wear anything you want :)
+        Brunch attire is wear anything you want :)
       </p>
     </TopicContainer>
 
@@ -194,7 +194,7 @@ const websiteContent = (
          from the large electronic panel infront of it, listing the departures. The ferry ticket kiosk looks like this:
       </p>
       <p>
-         <img className="large-image" src="img/split-ferry-ticket-kiosk.jpg" alt="Ferry tickets kiosk" />
+        <img className="large-image" src="img/split-ferry-ticket-kiosk.jpg" alt="Ferry tickets kiosk" />
       </p>
 
       <p>Once you are at the seaport and looking for transportation to the island, please note that there are two landing spots on the
@@ -239,12 +239,12 @@ const websiteContent = (
          parking spot right in the center of the town for 1 EUR/hour or 12 EUR/day.
       </p>
       <p>
-         Please note that unless you are coming by car to the island of Hvar, there should not be a need for you to rent one. There are
+        Please note that unless you are coming by car to the island of Hvar, there should not be a need for you to rent one. There are
          many organized boat trips to discover the surrounding Dalmatian islands and cabrio cars can be rented daily at a fairly decent
          price from Hvar itself and the paperwork is not that much. For example we rented this funny car for about 60 USD for a day trip:
       </p>
       <p>
-         <img className="large-image" src="img/hvar-rental-car.jpg" alt="Day car rental" />
+        <img className="large-image" src="img/hvar-rental-car.jpg" alt="Day car rental" />
       </p>
 
       <hr />

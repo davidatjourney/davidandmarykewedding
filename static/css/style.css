@@ -13,8 +13,9 @@
 
 body {
     background-attachment: fixed;
-    background-image: url('../img/bgimage.jpg');
+    /*background-image: url('../img/bgimage.jpg');*/
     background-position-x: center;
+    background-color: #CCA191;
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,8 +71,8 @@ hr {
 }
 
 #content {
-    padding-top: 200px;
-    padding-bottom: 300px;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 /**
@@ -84,7 +85,8 @@ hr {
     border-radius: 8px;
     display: block;
     margin: auto;
-    width: 70%;
+    margin-bottom: -100px;
+    width: 90%;
     padding: 10px 0 10px 0;
 }
 
@@ -112,7 +114,8 @@ hr {
  */
 
 .menu {
-    background-color: #333;
+    background-color: #331225;
+    margin-bottom: -50px;
 }
 
 .menu ul {
@@ -134,14 +137,14 @@ hr {
 }
 
 .menu ul li a:hover {
-    background: #b1bf92;
+    background: #99818E;
     color: #fff;
     outline: none;
     text-decoration: none;
 }
 
 .menu ul li a.active {
-    background: #b1bf92;
+    background: #B9969C;
     color: #fff;
     outline: none;
     text-decoration: none;
@@ -153,14 +156,14 @@ hr {
 
 .topic-wrapper {
     margin: auto;
-    padding-top: 200px;
+    padding-top: 100px;
     width: 80%;
 }
 
 .topic-wrapper section {
     background-color: black;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
+    background: rgba(232, 215, 208, 0.7);
+    color: #7C9790;
     padding: 40px 40px 70px 40px;
     text-align: left;
 
@@ -465,6 +468,7 @@ img.location-image {
 @media (max-width: 1000px) {
     h1 {
         font-size: 4.8em;
+        color: whitesmoke;
     }
 
     .titlebar .bride-name {
