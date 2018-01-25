@@ -4,7 +4,7 @@
  * id (string): Identifier for the element
  */
 
-'use strict';
+//'use strict';
 
 import React from 'react';
 

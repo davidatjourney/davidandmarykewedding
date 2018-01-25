@@ -6,7 +6,7 @@
  * children: The content of the topic
  */
 
-'use strict';
+//'use strict';
 
 import React from 'react';
 
