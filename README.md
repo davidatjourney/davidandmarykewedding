@@ -6,7 +6,8 @@ bundle both the server and client-side dependencies.
 ## INSTALLATION
 
 ```
-npm install && npm start
+It use to be: npm install && npm start
+Now I use yarn, so simply go yarn init && yarn start
 ```
 
 ## ENVIRONMENT VARIABLES
@@ -20,15 +21,15 @@ npm install && npm start
 
 ## COLOPHON
 
-Implemented on Mac using [Microsoft Visual Studio Code](https://code.visualstudio.com/).
+Implemented on Ubuntu using [Microsoft Visual Studio Code](https://code.visualstudio.com/).
 
-Site template idea borrowed from http://sarahlovesbradley.com/.
+Site template idea borrowed from https://github.com/kaloianm/wedding#readme who borrowed it from http://sarahlovesbradley.com/.
 
 ## LICENSE
 
 (The MIT License)
 
-Copyright (C) 2016 Kaloian Manassiev
+Copyright (C) 2018 David Holtzhausen
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
