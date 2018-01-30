@@ -6,7 +6,7 @@
 
 'use strict';
 
-import APIClient from '../api/api-client';
+import APIClient from '../../api/api-client';
 import isEmail from 'validator/lib/isEmail';
 import React from 'react';
 

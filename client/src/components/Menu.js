@@ -6,9 +6,7 @@
  *            href: string, }, ... ]    // Href to use for the entry
  */
 
-'use strict';
-
-import React from 'react';
+import React, { Component } from 'react';
 import Scroll from 'react-scroll';
 
 var Link = Scroll.Link;

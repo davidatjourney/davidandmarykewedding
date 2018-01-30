@@ -2,27 +2,27 @@
  * Main entry point for the client application.
  */
 
-'use strict';
-
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 import Sticky from 'react-stickynode';
 
-import Menu from './components/Menu.component';
-import RSVPForm from './components/RSVPForm.component';
-import SecretTooltip from './components/SecretTooltip.component';
-import TitleBar from './components/TitleBar.component';
-import TopicContainer from './components/TopicContainer.component';
+import Menu from '../components/Menu';
+import RSVPForm from '../components/RSVPForm.component';
+import SecretTooltip from '../components/SecretTooltip.component';
+import TitleBar from '../components/TitleBar';
+import TopicContainer from '../components/TopicContainer.component';
 
-class websiteContent extends React.Component {
+import '../css/style.css';
+
+export default class WebsiteContent extends Component {
   render() {
     return (
       <div>
-
         <TitleBar id="titlebar">
         </TitleBar>
 
-        <div style={{ height: '0px' }}></div>
+        <div style={{ height: '10px' }}>
+        </div>
 
         <Sticky enabled={true}>
           <Menu id="menu"
@@ -34,13 +34,12 @@ class websiteContent extends React.Component {
             { label: 'GIFTS', href: 'gifts' }]}>
           </Menu>
         </Sticky>
-
         <TopicContainer id="brideandgroom" name="brideandgroom" title="The Bride and Groom">
           <div className="container">
             <div className="row">
               <div className="one-half column">
                 <p>
-                  <a href="img/jocelyn-baby.jpg"><img className="thumbnail" src="img/jocelyn-baby.jpg" alt="Jocelyn" /></a>
+                  <a href="./img/kal-baby.jpg"><img className="thumbnail" src="./img/kal-baby.jpg" alt="Jocelyn" /></a>
                   Jocelyn is a sweet and giving girl who always sees the beauty in people. As exciting as it was to be rasied in New York, she made
               it her mission to live and explore as many beautiful cities as she could. Thanks to her beloved sister Wendy it was possible to
               jump from the neon nights of Miami, through the diverse city of London, to then learn the leisurely ways of Italy. While Jocelyn
@@ -51,7 +50,7 @@ class websiteContent extends React.Component {
 
               <div className="one-half column">
                 <p>
-                  <a href="img/kal-baby.jpg"><img className="thumbnail" src="img/kal-baby.jpg" alt="Kal" /></a>
+                  <a href="./img/kal-baby.jpg"><img className="thumbnail" src="./img/kal-baby.jpg" alt="Kal" /></a>
                   Kal is a burly and impatient Eastern European. He moved from his homeland Bulgaria to the lovely city of Toronto at the young and
               tender age of 22. Kal then found himself in the IT mecca of Seattle and realized after 9 years of the beautiful mountain backdrop
               and serene lakes that he needs to escape to the center of the universe, New York.
@@ -63,7 +62,7 @@ class websiteContent extends React.Component {
           <hr />
 
           <p>
-            <img className="large-image" src="img/proposal.jpg" alt="Kal Proposing To Jocelyn" />
+            <img className="large-image" src="./img/proposal.jpg" alt="Kal Proposing To Jocelyn" />
           </p>
 
           <h2>OUR STORY</h2>
@@ -327,4 +326,4 @@ class websiteContent extends React.Component {
   }
 }
 
-ReactDOM.render(<websiteContent />, document.getElementById('root'));
+render(<WebsiteContent />, document.getElementById('content'));

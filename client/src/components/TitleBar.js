@@ -6,7 +6,7 @@
 
 //'use strict';
 
-import React from 'react';
+import React, { Component } from 'react';
 
 class TitleBar extends React.Component {
 
